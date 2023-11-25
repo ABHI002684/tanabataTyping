@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+   
+    height: 98vh; /* Set the height of the navbar to the full viewport height */
+    width: 190px; /* Set the width of the navbar */
+    background-color: #333; /* Set the background color */
+    position: fixed; /* Fix the navbar position */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items horizontally */
+    padding-top: 20px; /* Add some padding at the top */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px; /* Add padding to the links */
+    text-align: center;
+    width: 100%; /* Make links take full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.navbar a:hover {
+    background-color: #55555565; /* Change background color on hover */
+}
+
+
+  #alphabet {
+    font-size: 24px;
+    margin: 20px;
+  }
+
+  #input-text {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  #timer {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #results {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .container{
+    background-color: #fcebec;
+    border: 3px solid grey;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    height: 600px;
+    width: 70vw;
+    position: relative;
+    left: 190px;
+    /* top: 50px; */
+
+
+  }
+  /* #input-text{
+    display: inline-block;
+    margin-left: 60px;
+  margin-right: 60px;
+  
+  cursor: pointer;
+
+  } */
+   
+    #button{
+
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: firebrick;
+  color: #fff;
+  /* height: 6vh;
+  width: 6vw;
+  margin-left: 50px; */
+  
+
+
+  } 
+  #button:hover
+  {
+  background-color: rgb(126, 4, 4);
+   
+
+  }
+  #top_row{
+    font-size: 28px;
+    margin: 20px;
+  }

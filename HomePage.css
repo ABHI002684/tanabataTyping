@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row; /* Adjusted flex direction to row */
+    align-items: flex-start; /* Adjusted alignment to the top */
+
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 30px;
+}
+
+.navbar a:hover {
+    background-color: #55555565;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 190px; /* Added margin to content to accommodate the navbar */
+}
+
+.welcome-message {
+    margin-top: 20vh; /* Adjusted margin from the top */
+    font-size: 60px; /* Increased font size */
+    color: #4CAF50; /* Changed text color to green */
+    animation: fadeIn 2s ease; /* Added fadeIn animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.user-image {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    padding: 5px;
+    z-index: 1;
+}
+
+.user-image img {
+    width: 100%;
+    border-radius: 50%;
+}

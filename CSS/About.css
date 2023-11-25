@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+h1, p {
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 30px;
+}
+
+#navbar a:hover {
+    background-color: #55555565;
+}
+
+.about-content {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 200px; /* Adjust margin to position content to the right of the navbar */
+    margin-top: 0px; /* Add margin-top to avoid overlap with the navbar */
+}
+
+.intro-line {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 20px;
+    height: auto;
+}
+
+@keyframes colorChange {
+    0% { background-color: #ff6666; }
+    25% { background-color: #66ff66; }
+    50% { background-color: #6666ff; }
+    75% { background-color: #ffff66; }
+    100% { background-color: #66ffff; }
+}
+
+/* styles for image size */
+.about-content img {
+    max-width: 10%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* styles for the introductory line */
+.intro-line {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    text-align: center;
+}
